@@ -13,6 +13,8 @@ import screenshot7 from './images/screenshot7.jpg';
 import screenshot8 from './images/screenshot8.jpg';
 import screenshot9 from './images/screenshot9.jpg';
 import screenshot10 from './images/screenshot10.png';
+import gameplayGif1 from './images/maid-supremacy-gif1.gif';
+import gameplayGif2 from './images/maid-supremacy-gif2.gif';
 import prika from './images/Lider.png';
 import kogi from './images/Driver.png';
 import machi from './images/Mechanic.png';
@@ -149,6 +151,14 @@ const App = () => {
         <h2>About</h2>
         <div className="about-story">
           <p>Maid Supremacy is a linear 3D action-shooter focused on fun gameplay and cute female characters. In a world where clothes dictate culture and identity, maids must prove they are superior through sheer violence and dominance.</p>
+        </div>
+        <div className="gameplay-gifs">
+          <div className="gameplay-gif-frame">
+            <img src={gameplayGif1} alt="Maid Supremacy tank combat gameplay" />
+          </div>
+          <div className="gameplay-gif-frame">
+            <img src={gameplayGif2} alt="Maid Supremacy drifting tank action" />
+          </div>
         </div>
         <div className='row'>
           <div className='col s12 m5 offset-m1'>
